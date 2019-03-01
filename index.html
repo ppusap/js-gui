@@ -47,7 +47,8 @@
 
     console.log('Declare event listeners .......................')
 
-    document.getElementById('degree').addEventListener('click', function () {
+    document.getElementById('degree').addEventListener('click',()=>
+     {
       
       const n=document.getElementById('name').value
       const i = parseInt(document.getElementById('temp').value)
